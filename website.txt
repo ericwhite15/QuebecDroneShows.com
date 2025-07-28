@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone Show Quebec - Spectacular Aerial Displays</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Drone Show Quebec</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Illuminate Your Events with Stunning Drone Shows</h1>
+        <p>Partnered with Illumin Drone Shows, we bring Quebec's skies to life for holidays, festivals, and corporate events.</p>
+        <a href="contact.html" class="cta">Get a Quote</a>
+    </section>
+    
+    <section class="intro">
+        <h2>About Us</h2>
+        <p>Drone Show Quebec specializes in marketing and coordinating custom drone light shows. We connect you with top providers like Illumin to create unforgettable aerial spectacles, such as for St-Jean-Baptiste at Fairmont Chateau Frontenac.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Drone Show Quebec. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Drone Show Quebec</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Drone Show Quebec</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="services">
+        <h1>Our Services</h1>
+        <ul>
+            <li>Custom Drone Show Marketing: Tailored proposals for events like St-Jean-Baptiste.</li>
+            <li>Event Coordination: From concept to execution with partners like Illumin.</li>
+            <li>Portfolio Integration: Showcase past shows with videos and images.</li>
+            <li>Pricing Consultation: Starting from $50,000 for 200-drone displays.</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Drone Show Quebec. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Drone Show Quebec</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Drone Show Quebec</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="portfolio">
+        <h1>Our Portfolio</h1>
+        <p>Featuring shows from our partner Illumin Drone Shows:</p>
+        <!-- Embed videos or images here; replace with real links -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/example-illumin-video" frameborder="0" allowfullscreen></iframe>
+        <p>Example: Toronto City Celebration with 500 drones.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Drone Show Quebec. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Drone Show Quebec</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Drone Show Quebec</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="contact">
+        <h1>Contact Us</h1>
+        <form>
+            <label>Name:</label><input type="text"><br>
+            <label>Email:</label><input type="email"><br>
+            <label>Message:</label><textarea></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+        <p>Email: info@droneshowquebec.com | Phone: (Your Number)</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Drone Show Quebec. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+header { background: #0056a3; color: white; padding: 10px; }
+nav { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: auto; }
+.logo { font-size: 24px; font-weight: bold; }
+ul { list-style: none; display: flex; gap: 20px; }
+a { color: white; text-decoration: none; }
+.hero { background: url('sky-background.jpg') center/cover; text-align: center; padding: 100px 20px; color: white; } /* Replace with a real image URL */
+.hero h1 { font-size: 48px; }
+.cta { background: #ff9900; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+.intro, .services, .portfolio, .contact { max-width: 800px; margin: 40px auto; padding: 20px; background: white; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+form { display: grid; gap: 10px; }
+footer { text-align: center; padding: 20px; background: #0056a3; color: white; }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    nav { flex-direction: column; }
+    ul { flex-direction: column; gap: 10px; }
+}
